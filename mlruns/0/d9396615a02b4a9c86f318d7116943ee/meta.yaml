@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rokha/Downloads/mlflow/mlruns/0/d9396615a02b4a9c86f318d7116943ee/artifacts
+end_time: 1707124084947
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: d9396615a02b4a9c86f318d7116943ee
+run_name: amazing-lynx-705
+run_uuid: d9396615a02b4a9c86f318d7116943ee
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707124079846
+status: 3
+tags: []
+user_id: rokhaiyasultana97

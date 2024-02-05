@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Users/rokha/Downloads/mlflow/mlruns/0/ad7d240db3064abb8785d8f1374f7b72/artifacts
+end_time: 1707122379489
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ad7d240db3064abb8785d8f1374f7b72
+run_name: hilarious-elk-675
+run_uuid: ad7d240db3064abb8785d8f1374f7b72
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1707122366545
+status: 3
+tags: []
+user_id: rokhaiyasultana97
