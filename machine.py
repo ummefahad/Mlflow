@@ -65,18 +65,18 @@ with mlflow.start_run():
         mlflow.log_param("mae", mae)  # Fix variable name here
         mlflow.log_param("r2", r2)  # Fix variable name here
 
-        predictions = lr.predict(train_x)
+        remote_server_uri = "https://dagshub.com/ummefahad/Mlflow.mlflow"
+        mlflow.set_tracking_uri(remote_server_uri)
 
-        signature = infer_signature(train_x, predictions)
 
         tracking_url_type_store = urlparse(mlflow.get_tracking_uri()).scheme
 
         if tracking_url_type_store != "file":
             mlflow.sklearn.log_model(
-                lr, "model", registered_model_name="ElasticnetWineModel", signature=signature
+                lr, "model", registered_model_name="ElasticnetWineModel"
             )
         else:
-            mlflow.sklearn.log_model(lr, "model", signature=signature)
+            mlflow.sklearn.log_model(lr, "model")
    
 
    
